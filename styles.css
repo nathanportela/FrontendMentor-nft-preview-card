@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 11px;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+}
+
+a{
+    margin: 0;
+}
+
+main{
+    min-height: 480px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.card-container{
+    background-color: hsl(216, 50%, 16%);
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: -3px 35px 35px 37px rgba(0,0,0,0.09);  
+}
+
+.card-content{
+    margin: 19px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nft-view{
+    position: relative;    
+}
+
+.view-hover{
+    background-color: rgb(0, 255, 247, 50%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 242px;
+    height: 242px;
+    border-radius: 6px;
+    display: flex;
+    opacity: 0;
+}
+
+.view-eye{
+    margin: 40%;
+}
+
+.view-hover:hover{
+    opacity: 100;
+}
+
+
+
+
+.card-content img{
+    border-radius: 6px;
+    width: 100%;
+}
+
+.card-content h1{
+    margin: 10px 0 13px 0;
+}
+
+.card-content a{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.card-content a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.card-content h2{
+    color: hsl(215, 51%, 70%);
+    font-weight: 200;
+    font-size: 14.6px;
+    margin: 0px 0 4px 0;
+    line-height: 21px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eth-value img{
+    width: 9px;
+    margin-right: 5px;
+}
+
+.eth-value p{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.time-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2px;
+}
+
+.time-left img{
+    width: 14px;
+    margin-right: 5px;
+}
+
+.time-left p{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.break{
+    width: 100%;
+    height: 0.1px;
+    background-color: rgb(139, 172, 218, 20%);
+    margin-top: 5px;
+}
+
+
+.creator-credits{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.creator-credits img{
+    box-sizing: border-box;
+    width: 26.5px;
+    border-radius: 100%;
+    border: solid 1.3px white;
+}
+
+.creator-credits p{
+
+    margin-left: 12px;
+    font-size: 1.2rem;
+}
+
+.creator-credits a{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.creator-credits a:hover{
+    color: hsl(178, 100%, 50%);
+}
